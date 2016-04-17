@@ -17,7 +17,6 @@ plot3 <- function(data=NULL) {
      lines(data$Time, data$Sub_metering_2, col="red")
      lines(data$Time, data$Sub_metering_3, col="blue")
      
-     
      dev.off()
 }
 
